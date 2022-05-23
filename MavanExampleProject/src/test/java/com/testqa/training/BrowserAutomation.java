@@ -17,8 +17,7 @@ public class BrowserAutomation {
 		driver.navigate().to("https://www.amazon.com/");
 		driver.findElement(By.xpath("loginbutton")).click();
 		driver.findElement(By.xpath("1")).sendKeys("hr@pronixinc.com");
-		driver.findElement(By.xpath("1")).sendKeys("hr@pronixinc.com");
-		driver.findElement(By.xpath("1")).sendKeys("hr@pronixinc.com");
+		
 		
 	}
 
